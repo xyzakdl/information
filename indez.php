@@ -35,49 +35,30 @@
     $contactNo4 = "09123456789";
 
     ?>
-    <h3>First Name</h3>
-    <p>  <?php  echo "{$firstName1}" ;?> </p>
-    <h3>Last Name</h3>
-    <?php  echo " {$lastName1} " ;?>
-    <h3>Age</h3>
-     <?php  echo " {$yourAge1} " ;?>
-    <h3>Address</h3>
-      <?php  echo " {$yourAddress1} " ;?>
-    <h3>Contact</h3>
-     <?php  echo " {$contactNo1} <br>" ;?></p>
-
-
-    <h3>First Name</h3>
-    <p>  <?php  echo "{$firstName2} " ;?></p>
-    <h3>Last Name</h3>
-    <p>  <?php  echo " {$lastName2} " ;?></p>
-    <h3>Age</h3>
-    <p>  <?php  echo " {$yourAge2} " ;?></p>
-    <h3>Address</h3>
-    <p>  <?php  echo " {$yourAddress2} " ;?></p>
-    <h3>Contact</h3>
-    <p>  <?php  echo " {$contactNo2} <br>" ;?></p>
-
-    <h3>First Name</h3>
-    <p>  <?php  echo "{$firstName3} " ;?></p>
-    <h3>Last Name</h3>
-    <p>  <?php  echo " {$lastName3} " ;?></p>
-    <h3>Age</h3>
-    <p>  <?php  echo " {$yourAge3} " ;?></p>
-    <h3>Address</h3>
-    <p>  <?php  echo " {$yourAddress3} " ;?></p>
-    <h3>Contact</h3>
-    <p>  <?php  echo " {$contactNo3} <br>" ;?></p>
-
-    <h3>First Name</h3>
-    <p>  <?php  echo "{$firstName4} " ;?></p>
-    <h3>Last Name</h3>
-    <p>  <?php  echo " {$lastName4}" ;?></p>
-    <h3>Age</h3>
-    <p>  <?php  echo " {$yourAge4} " ;?></p>
-    <h3>Address</h3>
-    <p>  <?php  echo " {$yourAddress4}" ;?></p>
-    <h3>Contact</h3>
-    <p>  <?php  echo " {$contactNo4} <br>" ;?></p>
+    <p><b>First Name:</b> <?php  echo "{$firstName1}" ;?></p>
+    <p><b>Last Name:</b> <?php  echo "{$lastName1}" ;?></p>
+    <p><b>Age:</b> <?php  echo "{$yourAge1}" ;?></p>
+    <p><b>Address:</b> <?php  echo "{$yourAddress1}" ;?></p>
+    <p><b>Contact:</b> <?php  echo "{$contactNo1}<br>" ;?></p>
+    <br>
+    <p><b>First Name:</b> <?php  echo "{$firstName2}" ;?></p>
+    <p><b>Last Name:</b> <?php  echo "{$lastName2}" ;?></p>
+    <p><b>Age:</b> <?php  echo "{$yourAge2}" ;?></p>
+    <p><b>Address:</b> <?php  echo "{$yourAddress2}" ;?></p>
+    <p><b>Contact:</b> <?php  echo "{$contactNo2}<br>" ;?></p>
+    <br>
+    <p><b>First Name:</b> <?php  echo "{$firstName3}" ;?></p>
+    <p><b>Last Name:</b> <?php  echo "{$lastName3}" ;?></p>
+    <p><b>Age:</b> <?php  echo "{$yourAge3}" ;?></p>
+    <p><b>Address:</b> <?php  echo "{$yourAddress3}" ;?></p>
+    <p><b>Contact:</b> <?php  echo "{$contactNo3}<br>" ;?></p>
+    <br>
+    <p><b>First Name:</b> <?php  echo "{$firstName4}" ;?></p>
+    <p><b>Last Name:</b> <?php  echo "{$lastName4}" ;?></p>
+    <p><b>Age:</b> <?php  echo "{$yourAge4}" ;?></p>
+    <p><b>Address:</b> <?php  echo "{$yourAddress4}" ;?></p>
+    <p><b>Contact:</b> <?php  echo "{$contactNo4}<br>" ;?></p>
+    <br>
+    
 </body>
 </html>
